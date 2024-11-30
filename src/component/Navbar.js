@@ -50,7 +50,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <span class="navbar-text">
-                            <Link><button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button></Link>
+                            <Link to='/'><button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button></Link>
                         </span>
                     </div>
                     {/* <button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button> */}

@@ -105,3 +105,28 @@
 }
 
 /* navbar css end */
+
+/* slider css */
+
+.slider_img::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  opacity: 100;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.slider_heading h1{
+  color: #e1e1e1;
+  z-index: 1;
+  position: absolute;
+  top: -55px;
+  left: -40px;
+  width: 73%;
+  font-size: 23PX;
+  font-weight: 900;
+}
