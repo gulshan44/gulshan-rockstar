@@ -1,0 +1,106 @@
+/* logo css */
+#logo {
+  animation: rotation 2s infinite linear;
+}
+
+#logo img {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    display: none;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* navbar css */
+
+#navbar {
+  background: #111111;
+}
+
+.nav-link {
+  color: #d1d1d1;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #fff;
+  font-weight: 500;
+}
+
+.rockstar {
+  display: none;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  /* font-family: monospace; */
+  font-weight: 900;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .rockstar {
+    display: block;
+  }
+}
+
+@media (min-width: 991px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    background: #6c3262;
+    padding: 1px;
+    visibility: hidden;
+    transition: 0.3s ease-out;
+  }
+
+  .nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+    border-radius: 5px;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* Smooth transition for the navbar collapse */
+.navbar-collapse {
+  transition: max-height 0.5s ease-in-out, opacity 0.7s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.navbar-collapse.show {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.navbar-collapse:not(.show) {
+  max-height: 0;
+  opacity: 0;
+}
+
+/* navbar css end */
