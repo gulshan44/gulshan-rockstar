@@ -47,6 +47,7 @@
   /* font-family: monospace; */
   font-weight: 900;
   text-decoration: none;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {

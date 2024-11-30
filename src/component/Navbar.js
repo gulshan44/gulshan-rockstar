@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <>
 
-            <nav id='navbar' className="navbar navbar-expand-lg">
+            <nav id='navbar' className="navbar navbar-expand-lg py-3">
                 <div className="container">
                     <Link id='logo' className="navbar-brand" to="/"><img src='/Rockstar-logo.png' alt='Logo' /></Link>
                     <Link to='/' className='rockstar'>GULSHAN ROCKSTAR</Link>
