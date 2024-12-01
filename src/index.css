@@ -88,9 +88,8 @@
 }
 
 /* Smooth transition for the navbar collapse */
-/* .navbar-collapse {
-  transition: max-height 0.5s ease-in-out, opacity 0.7s ease-in-out;
-  overflow: hidden;
+.navbar-collapse {
+  transition: max-height 0.8s ease-in-out, opacity 0.7s ease-in-out;
   max-height: 0;
 }
 
@@ -100,9 +99,9 @@
 }
 
 .navbar-collapse:not(.show) {
-  max-height: 0;
-  opacity: 0;
-} */
+  max-height: 20px;
+  opacity: 1;
+}
 
 /* navbar css end */
 
