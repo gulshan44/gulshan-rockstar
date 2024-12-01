@@ -124,10 +124,10 @@ body{
 
 .alert_massage {
   background: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 30%;
+  width: 60%;
 }
 
 /* Alert message css end */

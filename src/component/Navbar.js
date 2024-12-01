@@ -76,7 +76,7 @@ const Navbar = () => {
             {showModal && (
                 <div className="alert">
                     <div className="alert_massage">
-                        <h2>Welcome to you</h2>
+                        <h2>Welcome to My Site</h2>
                         <button onClick={closeModal} class="btn btn-outline-success" type="button">Get Started</button>
                     </div>
                 </div>
