@@ -93,6 +93,7 @@
 .heading h1 span {
   -webkit-text-stroke: 1px rgb(5, 182, 226) !important;
   -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
 }
 
 .heading p {
