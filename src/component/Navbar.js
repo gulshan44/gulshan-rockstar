@@ -21,7 +21,7 @@ const Navbar = () => {
             <nav id='navbar' className="navbar navbar-expand-lg py-3">
                 <div className="container">
                     <Link id='logo' className="navbar-brand" to="/"><img src='/Rockstar-logo.png' alt='Logo' /></Link>
-                    <Link to='/' className='rockstar'>GULSHAN ROCKSTAR</Link>
+                    <Link to='/' className='rockstarlogo'>GULSHAN ROCKSTAR</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded={isMenuOpen ? 'true' : 'false'} aria-label="Toggle navigation" onClick={toggleMenu}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 30 30">
                             <path stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" />

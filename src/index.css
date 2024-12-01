@@ -40,7 +40,7 @@
   font-weight: 500;
 }
 
-.rockstar {
+.rockstarlogo {
   display: none;
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
@@ -51,7 +51,7 @@
 }
 
 @media (max-width: 768px) {
-  .rockstar {
+  .rockstarlogo {
     display: block;
   }
 }
@@ -88,7 +88,7 @@
 }
 
 /* Smooth transition for the navbar collapse */
-.navbar-collapse {
+/* .navbar-collapse {
   transition: max-height 0.5s ease-in-out, opacity 0.7s ease-in-out;
   overflow: hidden;
   max-height: 0;
@@ -102,13 +102,13 @@
 .navbar-collapse:not(.show) {
   max-height: 0;
   opacity: 0;
-}
+} */
 
 /* navbar css end */
 
 /* slider css */
 
-.slider_img::after {
+/* .slider_img::after {
   content: ' ';
   display: block;
   position: absolute;
@@ -129,4 +129,4 @@
   width: 73%;
   font-size: 23PX;
   font-weight: 900;
-}
+} */
