@@ -18,11 +18,11 @@ const Navbar = () => {
 
 
     useEffect(() => {
-        const hasVisited = localStorage.getItem('hasVisited');
+        const hasVisited = sessionStorage.getItem('hasVisited');
 
         if (!hasVisited) {
             setShowModal(true);
-            localStorage.setItem('hasVisited', 'true');
+            sessionStorage.setItem('hasVisited', 'true');
         }
     }, []);
 
