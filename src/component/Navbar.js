@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [showModal, setShowModal] = useState(false);
 
     // Function to toggle the menu
     const toggleMenu = () => {
@@ -13,6 +14,20 @@ const Navbar = () => {
     // Function to close the menu when a link is clicked
     const closeMenu = () => {
         setIsMenuOpen(false);
+    };
+
+
+    useEffect(() => {
+        const hasVisited = localStorage.getItem('hasVisited');
+
+        if (!hasVisited) {
+            setShowModal(true);
+            localStorage.setItem('hasVisited', 'true');
+        }
+    }, []);
+
+    const closeModal = () => {
+        setShowModal(false);
     };
 
     return (
@@ -57,6 +72,15 @@ const Navbar = () => {
                 </div>
             </nav>
 
+
+            {showModal && (
+                <div className="modal">
+                    <div className="modal-content">
+                        <h2>Welcome to you</h2>
+                        <button onClick={closeModal} class="btn btn-outline-success" type="button">Get Started</button>
+                    </div>
+                </div>
+            )}
 
 
         </>

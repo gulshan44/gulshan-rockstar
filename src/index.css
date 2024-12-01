@@ -76,25 +76,54 @@
 
 /* heading css */
 
-.heading{
-background: linear-gradient(#272727 , #131313);
-color: #fff;
-width: 40%;
-padding: 40px;
-position: absolute;
-bottom: 70px;
-right: 50px;
+.heading {
+  background: linear-gradient(#272727, #131313);
+  color: #fff;
+  width: 40%;
+  padding: 40px;
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
 }
 
-.heading h1{
+.heading h1 {
   font-weight: 900;
 }
 
-.heading p{
-color: #ccc;
+.heading h1 span {
+  -webkit-text-stroke: 1px rgb(5, 182, 226) !important;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading p {
+  color: #ccc;
 }
 
 /* heading css end */
+
+
+/* Alert message css*/
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+}
 
 /* Responsive css */
 
@@ -120,8 +149,8 @@ color: #ccc;
 }
 
 
-@media (max-width: 921px){
-  .heading{
+@media (max-width: 921px) {
+  .heading {
     bottom: 10px;
     padding: 15px;
   }
@@ -139,9 +168,14 @@ color: #ccc;
     display: block;
   }
 
-  .heading{
-  position: static;
-  width: 100%;
-  padding: 20px;
-    }
+  .heading {
+    position: static;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .modal-content{
+    width: 80%;
+  }
 }
+

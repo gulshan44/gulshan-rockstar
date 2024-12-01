@@ -13,7 +13,7 @@ const Homepage = () => {
 
                         <div className='heading'>
                             <p>Hello,</p>
-                            <h1>Welcome To Rockstar's Gallery</h1>
+                            <h1>Welcome To <span>Rockstar's Gallery</span></h1>
                             <p>We are glad to have you here. Explore the amazing collection of images.</p>
                             <Link to='/' className='btn btn-outline-info'>Get Started</Link>
                         </div>
