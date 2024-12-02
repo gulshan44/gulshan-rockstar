@@ -2,9 +2,9 @@ import React from 'react'
 import Navbar from './component/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Gallery from './component/Gallery'
-import Homepage from './component/Homepage'
 import Profile from './component/Profile'
-import ChoosePic from './component/ChoosePic'
+import AllHomeComponent from './component/AllHomeComponent'
+import Footer from './component/Footer'
 
 const App = () => {
   return (
@@ -13,12 +13,11 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Homepage />} />
-          {/* <Route path='/' element={<ChoosePic />} /> */}
+          <Route path='/' element={<AllHomeComponent />} />
           <Route path='gallery' element={<Gallery />} />
           <Route path='profile' element={<Profile />} />
         </Routes>
-        <ChoosePic/>
+        <Footer/>
       </Router>
 
     </div>
