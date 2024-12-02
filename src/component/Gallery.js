@@ -31,7 +31,7 @@ const Gallery = () => {
 
                     {images.map((image, index) => (
 
-                        <div key={index} className='col-md-2 col-3 p-0 gallery_img animate__animated animate__slideInUp'>
+                        <div key={index} className='col-md-2 col-3 p-0 gallery_img'>
                             <img src={image} alt={`${index + 1}`} onClick={() => setSelectedImage(image)} className='img-fluid' />
                         </div>
                     ))}
