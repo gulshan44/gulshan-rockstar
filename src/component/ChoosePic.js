@@ -15,7 +15,7 @@ const ChoosePic = () => {
 
     return (
         <>
-            <div className='container pt-5 text-center categories'>
+            <div className='container pt-5 text-center categories animate__animated animate__slideInUp'>
 
                 <h2>CHOOSE FROM CATEGORIES</h2>
                 <p>"Unlock a gallery of moments frozen in time. Our categories bring together the best of creativity, beauty, and imagination to help you find exactly what resonates with your heart."</p>

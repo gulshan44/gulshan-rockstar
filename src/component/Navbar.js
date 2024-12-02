@@ -33,10 +33,10 @@ const Navbar = () => {
     return (
         <>
 
-            <nav id='navbar' className="navbar navbar-expand-lg py-3">
+            <nav id='navbar' className="navbar navbar-expand-lg py-3 animate__animated animate__fadeInDown">
                 <div className="container">
                     <Link id='logo' className="navbar-brand" to="/"><img src='/Rockstar-logo.png' alt='Logo' /></Link>
-                    <Link to='/' className='rockstarlogo'>GULSHAN ROCKSTAR</Link>
+                    <Link to='/' className='rockstarlogo animate__animated animate__flash'>GULSHAN ROCKSTAR</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded={isMenuOpen ? 'true' : 'false'} aria-label="Toggle navigation" onClick={toggleMenu}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 30 30">
                             <path stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" />
@@ -65,7 +65,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <span class="navbar-text">
-                            <Link to='/'><button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button></Link>
+                            <Link to='/login'><button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button></Link>
                         </span>
                     </div>
                     {/* <button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button> */}
@@ -74,7 +74,7 @@ const Navbar = () => {
 
 
             {showModal && (
-                <div className="alert">
+                <div className="alert animate__animated animate__fadeInDown">
                     <div className="alert_massage">
                         <h2>Welcome to My Site</h2>
                         <button onClick={closeModal} class="btn btn-outline-success" type="button">Get Started</button>

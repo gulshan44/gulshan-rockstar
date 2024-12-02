@@ -5,6 +5,7 @@ import Gallery from './component/Gallery'
 import Profile from './component/Profile'
 import AllHomeComponent from './component/AllHomeComponent'
 import Footer from './component/Footer'
+import Login from './component/Login'
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
           <Route path='/' element={<AllHomeComponent />} />
           <Route path='gallery' element={<Gallery />} />
           <Route path='profile' element={<Profile />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
 
     </div>

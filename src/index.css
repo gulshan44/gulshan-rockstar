@@ -213,12 +213,41 @@ footer {
 
 .gallery_img img{
   height: 100px;
-  width: 100px;
+  width: 94%;
   object-fit: cover;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 /* gallery page css end */
+
+
+/* Login page css start */
+
+#reg_heading {
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff; */
+  color: #000;
+}
+
+#reg_form {
+  background: #fff;
+}
+
+#sign_in {
+  color: #1783d0;
+  font-weight: 500;
+}
+
+#sign_in:hover {
+  color: #1475ba;
+}
+
+#loginbtn {
+  font-size: 15px;
+}
+
+/* login page css end */
 
 /* Responsive css */
 
@@ -325,6 +354,11 @@ footer {
 
   .socialmedia a{
     padding: 0px 30px;
+  }
+
+  .gallery_img img{
+    width: 98%;
+    margin-bottom: 3px;
   }
 
 }

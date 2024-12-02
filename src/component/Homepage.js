@@ -6,7 +6,7 @@ const Homepage = () => {
     return (
         <div>
 
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleSlidesOnly" className="carousel slide animate__animated animate__slideInUp" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src="/slider1.jpg" className="d-block w-100" alt="..." />
@@ -15,7 +15,7 @@ const Homepage = () => {
                             <p>Hello,</p>
                             <h1>Welcome To <span>Rockstar's Gallery</span></h1>
                             <p>We are glad to have you here. Explore the amazing collection of images.</p>
-                            <Link to='/' className='btn btn-outline-info'>View Gallery</Link>
+                            <Link to='/gallery' className='btn btn-outline-info'>View Gallery</Link>
                         </div>
 
                     </div>
