@@ -209,6 +209,17 @@ footer {
 
 /* footer css end */
 
+/* gallery page css start */
+
+.gallery_img img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+/* gallery page css end */
+
 /* Responsive css */
 
 @media (min-width: 991px) {
