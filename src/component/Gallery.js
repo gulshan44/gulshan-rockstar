@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Gallery = () => {
 
@@ -24,7 +25,7 @@ const Gallery = () => {
     return (
         <>
             <div className='container py-4'>
-                <h1 className='text-white'>All Photos</h1>
+                <h1 className='text-white'><Link to='/'><i class="bi bi-arrow-left"></i></Link> All Photos</h1>
                 {/* <p className='text-white'>This is Gallery page</p> */}
                 <div className='row'>
 
