@@ -12,7 +12,7 @@ const Login = () => {
     }
 
     return (
-        <div className='container pt-5 ' id='bg_shadow'>
+        <div className='container py-5 ' id='bg_shadow'>
             <div className='row m-3'>
                 <div className='col-md-5 py-4 px-4 rounded-3 m-auto animate__animated animate__zoomIn' id='reg_form'>
 
@@ -25,7 +25,7 @@ const Login = () => {
                         <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder='Username' id='username' type='text' required className='mb-3 form-control' />
                         <input value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' id='password' type='password' required className='mb-3 form-control' />
                         <button className='form-control btn btn-info' id='loginbtn'>{loading ? 'Logging in...' : 'Login'}</button>
-                        <p className='text-center mt-2'>Don't have an account? <Link id='sign_in' to='/Registration'>Sign up</Link></p>
+                        <p className='text-center mt-2'>Don't have an account? <Link id='sign_in' to='/registration'>Sign up</Link></p>
                         <p className='text-center m-0'><Link to='/forget'>Forget password?</Link></p>
                     </form>
 

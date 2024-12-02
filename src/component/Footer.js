@@ -31,7 +31,7 @@ const Footer = () => {
 
                         <div className="col-md-3 footer-box">
 
-                            <Link to=""><img src="/Rockstar-logo.png" alt="" className="img-fluid logo" /></Link>
+                            <Link to=""><img src="/Rockstar-logo.png" alt="..." className="img-fluid logo" /></Link>
 
                             <p className="pt-4">I recently had the pleasure of working with a talented photographer for
                                 my daughter's senior portraits, and I couldn't be happier with the results. From the moment we

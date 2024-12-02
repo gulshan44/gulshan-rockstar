@@ -65,7 +65,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <span class="navbar-text">
-                            <Link to='/login'><button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button></Link>
+                            <Link to='/login'><button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Register</button></Link>
                         </span>
                     </div>
                     {/* <button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button> */}
