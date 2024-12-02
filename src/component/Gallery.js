@@ -23,7 +23,7 @@ const Gallery = () => {
 
     return (
         <>
-            <div className='container py-4 animate__animated animate__slideInUp'>
+            <div className='container py-4'>
                 <h1 className='text-white'>All Photos</h1>
                 {/* <p className='text-white'>This is Gallery page</p> */}
                 <div className='row'>
