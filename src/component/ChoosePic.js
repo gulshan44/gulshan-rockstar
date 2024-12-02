@@ -8,9 +8,9 @@ const ChoosePic = () => {
         "/img1.jpg",
         "/img2.jpg",
         "/img3.jpg",
-        "/img1.jpg",
-        "/img1.jpg",
-        "/img1.jpg",
+        "/img4.png",
+        "/img11.jpg",
+        "/img12.jpg",
     ];
 
     return (
