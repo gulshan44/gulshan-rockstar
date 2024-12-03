@@ -16,11 +16,11 @@ const Footer = () => {
 
                             <Link className="fs-5 text-white pe-3" to="https://www.facebook.com/" target="_blank"><i
                                 className="bi bi-facebook"></i></Link>
-                            <Link className="fs-5 text-white pe-3" to="https://www.instagram.com/" target="_blank"><i
+                            <Link className="fs-5 text-white pe-3" to="https://www.instagram.com/gulshanrock665" target="_blank"><i
                                 className="bi bi-instagram"></i></Link>
                             <Link className="fs-5 text-white pe-3" to="https://www.twitter.com/" target="_blank"><i
                                 className="bi bi-twitter"></i></Link>
-                            <Link className="fs-5 text-white" to="https://www.youtube.com/" target="_blank"><i
+                            <Link className="fs-5 text-white" to="https://www.youtube.com/@gulshanverma7821" target="_blank"><i
                                 className="bi bi-youtube"></i></Link>
 
                         </div>
