@@ -6,7 +6,7 @@ const Homepage = () => {
     return (
         <div>
 
-            <div id="carouselExampleSlidesOnly" className="carousel slide animate__animated animate__slideInUp" data-bs-ride="carousel">
+            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src="/slider1.jpg" className="d-block w-100" alt="..." />
