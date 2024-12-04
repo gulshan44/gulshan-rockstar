@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    // const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [showModal, setShowModal] = useState(false);
 
-    // Function to toggle the menu
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    };
+    // // Function to toggle the menu
+    // const toggleMenu = () => {
+    //     setIsMenuOpen(!isMenuOpen);
+    // };
 
-    // Function to close the menu when a link is clicked
-    const closeMenu = () => {
-        setIsMenuOpen(false);
-    };
+    // // Function to close the menu when a link is clicked
+    // const closeMenu = () => {
+    //     setIsMenuOpen(false);
+    // };
 
 
     useEffect(() => {
@@ -37,21 +37,21 @@ const Navbar = () => {
                 <div className="container">
                     <Link id='logo' className="navbar-brand" to="/"><img src='/Rockstar-logo.png' alt='Logo' /></Link>
                     <Link to='/' className='rockstarlogo animate__animated animate__flash'>GULSHAN ROCKSTAR</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded={isMenuOpen ? 'true' : 'false'} aria-label="Toggle navigation" onClick={toggleMenu}>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 30 30">
                             <path stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" />
                         </svg>
                     </button>
-                    <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav me-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" to="/" onClick={closeMenu}>Home</Link>
+                                <Link className="nav-link" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="gallery" onClick={closeMenu}>Gallery</Link>
+                                <Link className="nav-link" to="gallery">Gallery</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="profile" onClick={closeMenu}>Profile</Link>
+                                <Link className="nav-link" to="profile">Profile</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -68,7 +68,7 @@ const Navbar = () => {
                             <Link to='/login'><button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Register</button></Link>
                         </span>
                     </div>
-                    {/* <button class="btn btn-sm btn-outline-secondary rounded-pill" type="button">Login/Rgister</button> */}
+                   
                 </div>
             </nav>
 
