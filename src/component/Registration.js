@@ -27,7 +27,7 @@ const Registration = () => {
                         <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder='Username' id='username' type='text' required className='mb-3 form-control' />
                         <input value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' id='password' type='password' required className='mb-3 form-control' />
                         <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder='email' id='email' type='email' required className='mb-3 form-control' />
-                        <button className='form-control btn' style={{ backgroundColor: '#007bff', color: '#fff' }} id='loginbtn' disabled={loading}>{loading ? <><span className="spinner-border spinner-border-sm"></span> Registering...</> : "Register"}</button>
+                        <button className='form-control btn' id='loginbtn' disabled={loading}>{loading ? <><span className="spinner-border spinner-border-sm"></span> Registering...</> : "Register"}</button>
                         <p className='text-center mt-2 mb-0'>Already have an account? <Link id='sign_in' to='/Login'>Sign in</Link></p>
                     </form>
 

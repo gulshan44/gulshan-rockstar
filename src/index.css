@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(to right, #141414, #141414);
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
 /* logo css */
@@ -256,6 +256,12 @@ footer {
 
 #loginbtn {
   font-size: 15px;
+  background: #9b59b6;
+  color: #fff;
+}
+
+#loginbtn:hover {
+  background: #71b7e6;
 }
 
 /* login page css end */

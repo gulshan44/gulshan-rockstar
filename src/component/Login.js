@@ -18,15 +18,16 @@ const Login = () => {
 
                     <div className='d-flex align-items-center justify-content-between p-2'>
                         <h3 className='m-0' id='reg_heading'>Login</h3>
-                        <img src='/food.png' alt='...' className='w-25' />
+
                     </div>
 
                     <form onSubmit={(e) => { handleLogin(e) }}>
                         <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder='Username' id='username' type='text' required className='mb-3 form-control' />
                         <input value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' id='password' type='password' required className='mb-3 form-control' />
-                        <button className='form-control btn btn-info' id='loginbtn'>{loading ? 'Logging in...' : 'Login'}</button>
-                        <p className='text-center mt-2'>Don't have an account? <Link id='sign_in' to='/registration'>Sign up</Link></p>
-                        <p className='text-center m-0'><Link to='/forget'>Forget password?</Link></p>
+                        <button className='form-control btn' id='loginbtn'>{loading ? 'Logging in...' : 'Login'}</button>
+                        <p className='text-center mt-2'>Don't have an account? <Link id='sign_in' to='/registration'>Create a New Account</Link></p>
+                        <p className='text-center mt-2'><Link to='/forget'>Forget password?</Link></p>
+                        
                     </form>
 
                 </div>

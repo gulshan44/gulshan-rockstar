@@ -16,7 +16,7 @@ const Gallery = () => {
         // "/img8.jpg",
         // "/img9.jpg",
         // "/img10.jpg",
-        // "/img11.jpg",
+        // "/img11.jpg",y
         "/img12.jpg",
         "/img13.jpg",
         "/img14.jpg",

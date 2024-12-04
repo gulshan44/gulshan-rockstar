@@ -14,12 +14,12 @@ const Footer = () => {
 
                         <div className="socialmedia">
 
-                            <Link className="fs-5 text-white pe-3" to="https://www.facebook.com/" target="_blank"><i
-                                className="bi bi-facebook"></i></Link>
+                            <Link className="fs-5 text-white pe-3" to="https://www.linkedin.com/in/gulshan-verma-9511b6338/" target="_blank"><i
+                                className="bi bi-linkedin"></i></Link>
                             <Link className="fs-5 text-white pe-3" to="https://www.instagram.com/gulshanrock665" target="_blank"><i
                                 className="bi bi-instagram"></i></Link>
-                            <Link className="fs-5 text-white pe-3" to="https://www.twitter.com/" target="_blank"><i
-                                className="bi bi-twitter"></i></Link>
+                            <Link className="fs-5 text-white pe-3" to="https://github.com/gulshan44" target="_blank"><i
+                                className="bi bi-github"></i></Link>
                             <Link className="fs-5 text-white" to="https://www.youtube.com/@gulshanverma7821" target="_blank"><i
                                 className="bi bi-youtube"></i></Link>
 
