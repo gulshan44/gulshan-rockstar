@@ -9,7 +9,8 @@ const Homepage = () => {
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="/slider1.jpg" className="d-block w-100" alt="..." />
+                        {/* <img src="/slider1.jpg" className="d-block w-100" alt="..." /> */}
+                        <img src="/img100.jpg" className="d-block w-100" alt="..." />
 
                         <div className='heading'>
                             <p>Hello,</p>
