@@ -7,19 +7,19 @@ const Gallery = () => {
 
     const images = [
         "/img1.jpg",
-        // "/img2.jpg",
-        // "/img3.jpg",
-        // "/img4.png",
-        // "/img5.jpg",
-        // "/img6.jpg",
-        // "/img7.jpg",
-        // "/img8.jpg",
-        // "/img9.jpg",
-        // "/img10.jpg",
-        // "/img11.jpg",
-        // "/img12.jpg",
-        // "/img13.jpg",
-        // "/img14.jpg",
+        "/img2.jpg",
+        "/img3.jpg",
+        "/img4.png",
+        "/img5.jpg",
+        "/img6.jpg",
+        "/img7.jpg",
+        "/img8.jpg",
+        "/img9.jpg",
+        "/img10.jpg",
+        "/img11.jpg",
+        "/img12.jpg",
+        "/img13.jpg",
+        "/img14.jpg",
     ];
 
     return (
@@ -52,7 +52,7 @@ const Gallery = () => {
                             </div>
 
                             <button type="button" className="btn-close"
-                                style={{ position: "absolute", top: "15px", right: "15px", color: "black", }} onClick={() => setSelectedImage(null)} ></button>
+                                style={{ position: "absolute", top: "15px", right: "15px", color: "white", }} onClick={() => setSelectedImage(null)} ></button>
                         </div>
                     </div>
                 </div>
