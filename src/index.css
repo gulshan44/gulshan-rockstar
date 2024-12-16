@@ -81,7 +81,8 @@ body{
 /* heading css */
 
 #bg_img{
-  
+  height: 650px;
+  object-fit: cover;
 }
 
 .heading {
@@ -390,6 +391,10 @@ footer {
 
   .video video{
     width: 100%;
+    height: auto;
+  }
+
+  #bg_img{
     height: auto;
   }
 
