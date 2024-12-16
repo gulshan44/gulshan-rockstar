@@ -80,6 +80,10 @@ body{
 
 /* heading css */
 
+#bg_img{
+  
+}
+
 .heading {
   background: linear-gradient(#272727, #131313);
   color: #fff;
@@ -87,7 +91,7 @@ body{
   padding: 40px;
   position: absolute;
   bottom: 70px;
-  right: 50px;
+  left: 50px;
 }
 
 .heading h1 {
