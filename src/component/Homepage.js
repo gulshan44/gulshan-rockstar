@@ -10,7 +10,7 @@ const Homepage = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         {/* <img src="/slider1.jpg" className="d-block w-100" alt="..." /> */}
-                        <img id='bg_img' src="/img3.jpg" className="d-block w-100" alt="..." />
+                        <img src="/img3.jpg" className="d-block w-100" alt="..." />
 
                         <div className='heading'>
                             <p>Hello,</p>
