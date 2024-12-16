@@ -132,7 +132,7 @@ body{
 
 /* Alert message css end */
 
-/* choose fro categories */
+/* choose from categories */
 
 .categories h2{
   -webkit-text-stroke: 1px rgb(214, 214, 214) !important;
@@ -169,6 +169,12 @@ body{
 
 .modal-content{
   width: 100%;
+}
+
+.video video{
+  padding-top: 20px;
+  width: 50%;
+  height: 400px;
 }
 
 
@@ -376,6 +382,11 @@ footer {
   .gallery_img img{
     width: 98%;
     margin-bottom: 3px;
+  }
+
+  .video video{
+    width: 100%;
+    height: auto;
   }
 
 }

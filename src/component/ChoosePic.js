@@ -20,6 +20,10 @@ const ChoosePic = () => {
                 <h2>CHOOSE FROM CATEGORIES</h2>
                 <p>"Unlock a gallery of moments frozen in time. Our categories bring together the best of creativity, beauty, and imagination to help you find exactly what resonates with your heart."</p>
 
+                <div className='video'>
+                    <video src="/video1.mp4" controls="controls"></video>
+                </div>
+
                 <div className='row pt-5 box'>
 
                     {images.map((image, index) => (
